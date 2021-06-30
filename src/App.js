@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Signin from "./pages/Signin";
-import Dash from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
       <Switch>
         <Route exact path='/' component={Signin}></Route>
-        <Route path='/Dash' component={Dash}></Route>
+        <Route path='/Dashboard' component={Dashboard}></Route>
       </Switch>
       </div>
     </Router>
