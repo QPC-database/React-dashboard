@@ -1,8 +1,11 @@
+import React from "react";
 
-export default () => {
-	return (
-		<h1>
-			This is the signin page!
-		</h1>
-	);
+function Signin() {
+  return (
+    <div>
+      <h1>This is the signin page!</h1>
+    </div>
+  );
 }
+
+export default Signin;
