@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Signin from "./pages/Signin";
 import Dashboard from "./pages/Dashboard";
 
+import Header from "./components/Header";
+
 function App() {
   return (
     <Router>
@@ -13,6 +15,7 @@ function App() {
             <Signin />
           </Route>
           <Route path="/dashboard">
+            <Header />
             <Dashboard />
           </Route>
         </Switch>
