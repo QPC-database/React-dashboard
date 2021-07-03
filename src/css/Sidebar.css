@@ -1,0 +1,38 @@
+.sidebar {
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__heading {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.sidebar__list {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__list li {
+  color: #ffffff;
+  border: 1px solid #2f5570;
+  border-radius: 12px;
+  margin: 10px;
+  height: 40px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.sidebar__list li span {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  font-size: 1.2rem;
+}
+
+.sidebar__icon {
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
