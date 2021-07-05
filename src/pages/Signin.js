@@ -41,7 +41,10 @@ function Signin() {
           xs={12}
           className="d-flex align-items-center justify-content-center"
         >
-          <div className="bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-50">
+          <div
+            xs={12}
+            className="bg-white shadow-soft border rounded border-light p-4 p-lg-5"
+          >
             <div className="text-center text-md-center mb-4 mt-md-0">
               <h3 className="mb-0">Sign in to our platform</h3>
             </div>
