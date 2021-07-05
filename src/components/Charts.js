@@ -7,8 +7,13 @@ import "../css/Chart.css";
 export const SalesValueChart = () => {
   const data = {
     labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-    series: [[1, 2, 2, 3, 3, 4, 3]],
+    series: [[0, 0, 0, 0, 0, 0, 0]],
   };
+
+  // const data = {
+  //   labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  //   series: [[1, 2, 2, 3, 3, 4, 3]],
+  // };
 
   const options = {
     low: 0,
@@ -33,7 +38,7 @@ export const SalesValueChart = () => {
       data={data}
       options={{ ...options, plugins }}
       type="Line"
-      className="ct-series-g"
+      className="ct-series-g ct-series-a"
     />
   );
 };
